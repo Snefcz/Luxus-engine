@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+background-image: url(img/katerina-kerdi--YiJvbfNDqk-unsplash.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+
+li {
+    display: inline;
+    float: left;
+}
+
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #333;
+
+}
+
+ul {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+ li {
+    border-right: 1px solid white;
+ }
+
+ ul {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+ }
+
+
+ header img {
+    display: block;
+    width: 50px;
+    margin-left: 15%;
+ }
+
+ #logob {
+   display: block;
+   margin-left: 5%;
+   margin-top: 20%;
+   background-color: #333;
+   border-radius: 50%;
+   width: 20%;
+ }
+
+ main h1 {
+    display: block;
+    color:rgb(43, 35, 35);
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: -17%;
+    font-size: 30px;
+ }
+
+ 
+
+main p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+footer {
+    display: block;
+    bottom:0%;
+    position: fixed;
+    width: 100%;
+    color: white;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:red;
+}
+
+
+#faq-tittle {
+    background: white;
+    text-align: center;
+}
